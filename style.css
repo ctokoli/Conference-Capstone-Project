@@ -59,3 +59,16 @@
     margin: 5px auto;
   }
 
+  nav.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo img {
+    height: 51px;
+}
+
+
+
