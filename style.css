@@ -75,7 +75,7 @@
 
 .headline{
   background-image: url('images/desktop_bg.png');
-  height: 100vh;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -89,13 +89,13 @@
 .hero-container h4 {
   font-weight: 400;
   font-size: 20px;
-  color: #FA3516;
+  color: #fa3516;
 }
 
 .hero-container h1 {
     font-weight: 900;
     font-size: 25px;
-    color: #FA3516;
+    color: #fa3516;
   }
 
 .hero-content {
@@ -103,8 +103,14 @@
     width: 356px;
     margin: 20px auto;
     background-color: #F5F5F5;
-    border: 4px solid white;
+    border: 4px solid #fff;
     padding: 11px;
+}
+
+.hero-date {
+   margin-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 13px;
 }
 
 .hero-date h4 {
@@ -116,6 +122,76 @@
     color: #595959;
     font-weight: 700; 
 }
+
+.main-program {
+    background-image: url(images/bg1.png);
+}
+
+.program-heading {
+    text-align: center;
+}
+
+.program-heading h2{
+  color: #fff;
+  font-weight: 100;
+  padding-top: 22px;
+  padding-bottom: 5px;
+}
+
+.program-heading::after{
+    content: '';
+    height: 2px;
+    width: 10%;
+    margin: 0 auto;
+    background-color: #fa3516d1;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.program-contents {
+    margin: 45px 10px;
+}
+
+.program-cont {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: #4c505842;
+    padding: 10px;
+}
+
+.program-cont span img {
+    width: 150px;
+    height: 51px;
+}
+
+.program-cont h2 {
+    font-size: 16px;
+    color: #fa3516;
+    margin-right: 15px;
+}
+
+.program-cont div p {
+    font-size: 13px;
+    color: #fff;
+}
+
+.program-button {
+    margin: 0 auto;
+    width: 330px;
+    padding-bottom: 35px;
+}
+
+.program-button button{
+    padding: 23px 50px;
+    background-color: #ff4f38;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
+
 
 
 
