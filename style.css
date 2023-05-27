@@ -80,8 +80,10 @@
 
 .hero-container {
   margin-left: 5%;
-  position: relative;
-  top: 15%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .hero-container h4 {
@@ -95,6 +97,25 @@
     font-size: 25px;
     color: #FA3516;
   }
+
+.hero-content {
+    font-size: 13px;
+    width: 356px;
+    margin: 20px auto;
+    background-color: #F5F5F5;
+    border: 4px solid white;
+    padding: 11px;
+}
+
+.hero-date h4 {
+    font-size: 14px;
+    color: #7e7e7e;
+}
+
+.hero-date h1 {
+    color: #595959;
+    font-weight: 700; 
+}
 
 
 
