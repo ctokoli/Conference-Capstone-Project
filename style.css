@@ -15,6 +15,7 @@
   */
   html, body {
     height: 100%;
+    font-family: 'Lato',serif;
   }
   /*
     Typographic tweaks!
@@ -57,20 +58,45 @@
     width: 31px;
     height: 5px;
     margin: 5px auto;
-  }
+}
 
-  nav.nav-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 0;
-    box-shadow: 1px 6px 10px #b3b1b1;
-    padding-bottom: 8px;
+ nav.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+  box-shadow: 1px 6px 10px #b3b1b1;
+  padding-bottom: 8px;
 }
 
 .logo img {
     height: 51px;
 }
+
+.headline{
+  background-image: url('images/desktop_bg.png');
+  height: 100vh;
+}
+
+.hero-container {
+  margin-left: 5%;
+  position: relative;
+  top: 15%;
+}
+
+.hero-container h4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FA3516;
+}
+
+.hero-container h1 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #FA3516;
+  }
+
+
 
 
 
