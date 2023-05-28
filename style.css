@@ -325,6 +325,73 @@ section.footer p {
 }
 
 
+.about-hero-container {
+    padding: 0 20px;
+    text-align: center;
+    color: #FF4F38;
+}
+
+.about-hero-container h1 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+header.about-hero-container h4 {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.about-hero-content {
+    margin: 20px 15px;
+    padding: 20px 9px;
+    text-align: center;
+    background: #fff;
+    line-height: 1.7;
+    font-size: 14px;
+    border: 1px solid #dadada;
+}
+
+.hero-contact {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    padding: 0px 30px 25px 30px;
+}
+
+section.about-main {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.summit-logo::after{
+    content: '';
+    height: 2px;
+    width: 5%;
+    margin: 0 auto;
+    background-color: #ee290ad1;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.summit-logo h1 {
+    margin-bottom: 5px;
+    color:  #2c2c2c;
+}
+
+section.about-main p {
+    font-size: 16px;
+    padding: 20px;
+    color: #838383;
+}
+
+
+
+
 
 
 
