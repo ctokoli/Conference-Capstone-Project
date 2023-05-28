@@ -133,7 +133,7 @@
 
 .program-heading h2{
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
   padding-top: 22px;
   padding-bottom: 5px;
 }
@@ -269,6 +269,42 @@ button.more {
 
 button.more img {
     margin-left: 10px;
+}
+
+section.partners-section {
+    background-color: #414246;
+}
+
+.partners-heading {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.partners-heading h2 {
+    font-weight: 300;
+}
+
+.partners-heading::after {
+    content: '';
+    height: 2px;
+    width: 10%;
+    margin: 0 auto;
+    background-color: #c91b00d1;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.partners-brand {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partners-brand img {
+    padding: 10px;
 }
 
 
