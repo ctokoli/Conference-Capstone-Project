@@ -264,6 +264,10 @@ ul.manu-item a li {
     border: none;
 }
 
+.program-button-desktop {
+    display: none;
+}
+
 section.featured-speakers-section {
     padding-bottom: 28px;
 }
@@ -714,8 +718,9 @@ section.about-pass-event{
     .program-contents {
         width: 1200px;
         display: flex;
-        margin: 0 auto;
+        margin: 0px auto;
         justify-content: center;
+        margin-top: 70px;
     }
 
     .program-cont {
@@ -725,10 +730,40 @@ section.about-pass-event{
         text-align: center;
         margin-right: 5px;
     }
+    .program-cont h2 {
+        padding-top: 7px;
+        margin-right: 0px;
+    }
 
     .program-cont div p {
         width: 154px;
         padding: 10px;
+    }
+
+    .program-button{
+        display: none;
+    }
+
+    .program-button-desktop {
+        display: block;
+        text-align: center;
+        text-align: center;
+        padding: 50px 0 82px 0px;
+    }
+
+    .program-button-desktop a {
+        color: #fff;
+    }
+
+    .featured-speakers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    button.more{
+        display: none;
     }
 }
 
