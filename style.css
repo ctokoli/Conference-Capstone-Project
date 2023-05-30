@@ -65,7 +65,6 @@
   justify-content:space-between;
   align-items: center;
   margin: 10px 0;
-  box-shadow: 1px 6px 10px #b3b1b1;
   padding-bottom: 8px;
 }
 
@@ -123,8 +122,8 @@ ul.manu-item a li {
     text-align: center;
     background-image: url(images/mobile_intro_bg.png);
     background-repeat: no-repeat;
-    background-position-x: 60%;
-    background-position-y: 70%;
+    background-position-x: 30%;
+    background-size: 548px;
     background-color: #fff;
     z-index: 2;
     transition: 0.3s;
@@ -139,10 +138,12 @@ ul.manu-item a li {
     height: 51px;
 }
 
-.headline{
-  background-image: url('images/desktop_bg.png');
+ .block{
+  background-image: url(images/mobile_intro_bg.png);
   background-repeat: no-repeat;
-}
+  background-position-x: 90%;
+  background-size: 441px;
+} 
 
 .hero-container {
   margin-left: 5%;
@@ -160,8 +161,10 @@ ul.manu-item a li {
 
 .hero-container h1 {
     font-weight: 900;
-    font-size: 25px;
+    font-size: 33px;
     color: #fa3516;
+    padding-right: 20px;
+    line-height: 1.2;
   }
 
 .hero-content {
