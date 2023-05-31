@@ -295,13 +295,13 @@ h2.workshop {
   font-weight: 700;
 }
 
+.hero-contact p {
+  font-size: 18px;
+}
+
 .speaker-text p {
   font-size: 11px;
   font-weight: 500;
-}
-
-.hero-contact p {
-  font-size: 18px;
 }
 
 .program-cont div p {
@@ -794,6 +794,11 @@ section.about-pass-event {
     border: 4px solid #fff;
   }
 
+  .speaker-text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
   .program-cont div p {
     width: 154px;
     padding: 10px;
@@ -839,11 +844,6 @@ section.about-pass-event {
   .speaker img {
     height: 143px;
   }
-
-  .speaker-text p {
-    font-size: 14px;
-    font-weight: 500;
-}
 
   .partners-brand {
     width: 1200px;
