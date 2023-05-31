@@ -296,7 +296,7 @@ h2.workshop {
 }
 
 .speaker-text p {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -839,6 +839,11 @@ section.about-pass-event {
   .speaker img {
     height: 143px;
   }
+
+  .speaker-text p {
+    font-size: 14px;
+    font-weight: 500;
+}
 
   .partners-brand {
     width: 1200px;
