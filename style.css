@@ -179,6 +179,10 @@ ul.manu-item a li {
     padding: 11px;
 }
 
+p.hero-d {
+    display: none;
+}
+
 .hero-date {
    margin-left: 20px;
     padding-bottom: 50px;
@@ -326,7 +330,7 @@ div.red-tex::after {
     background-color: #c4c4c4d1;
     position: absolute;
     left: 0;
-    right: 115px;
+    right: 166px;
 }
 
 .featured-speakers {
@@ -758,13 +762,117 @@ section.about-pass-event{
     .featured-speakers {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 1200px;
+        width: 1046px;
         margin: 0 auto;
     }
 
     button.more{
         display: none;
     }
+
+    .speaker {
+        position: relative;
+        padding-right: 35px;
+    }
+
+    div.red-tex::after {
+        content: '';
+        height: 2px;
+        width: 5%;
+        right: 172px;
+    }
+
+    div.red-tex p {
+        font-size: 14px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .speaker-text p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .speaker img {
+        height: 143px;
+    }
+
+    .partners-brand {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .partners-brand img {
+        height: 73px;
+    }
+
+    .partners-heading::after {
+        background-color: #A04038;
+        height: 2px;
+        width: 2%;
+    }
+
+    .partners-heading h2 {
+        font-weight: 100;
+        padding-bottom: 5px;
+    }
+
+    header.about-hero-container h4 {
+        display: none;
+    }
+
+    .about-hero-container {
+       padding-top: 136px;
+    }
+
+    .about-hero-container {
+        width: 1200px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 136px;
+    }
+
+    header.about-hero-container h1 {
+        font-size: 3em;
+        padding: 0px 310px;
+    }
+
+    header.about-hero-container::after{
+    content: '';
+    height: 2px;
+    width: 2%;
+    margin: 20px auto;
+    background-color: #ff5b42d1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    }
+
+    p.hero-p {
+        display: none;
+    }
+    p.hero-d {
+        display: block;
+    }
+
+    .about-hero-content {
+        padding: 32px;
+        width: 975px;
+        margin: 90px auto;
+    }
+
+    .hero-contact {
+        width: 900px;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        padding-bottom: 59px;
+    }
+
+    .hero-contact p {
+        font-size: 18px;
+    }
+
+    
 }
 
 
