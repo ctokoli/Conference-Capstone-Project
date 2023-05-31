@@ -126,7 +126,7 @@ ul.manu-item {
   text-decoration: none;
 }
 
-ul.manu-item a li {
+ul.manu-item li a {
   padding-top: 20px;
   font-size: 20px;
   color: #868686;
@@ -256,6 +256,11 @@ ul.manu-item a li {
   margin: 30px auto;
 }
 
+.partners-brand img {
+  padding-left: 10px;
+  padding-bottom: 14px;
+}
+
 .program-cont span img {
   width: 150px;
   height: 51px;
@@ -296,7 +301,7 @@ h2.workshop {
 }
 
 .hero-contact p {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .speaker-text p {
@@ -703,19 +708,23 @@ section.about-pass-event {
     box-shadow: 0 2px 5px #c9c9c9;
   }
 
-  ul.manu-item a li {
+  ul.manu-item li a {
     color: #868686;
     font-size: 18px;
     padding-top: 7px;
   }
 
-  li.cc {
+  .manu-item li a:visited {
+    color: #ff4f38;
+  }
+
+  a.cc {
     border: 4px solid #ff4f38;
     padding: 0 15px 10px 15px;
     color: #ff4f38 !important;
   }
 
-  a.cc-top {
+  li.cc-top {
     margin-left: 40px;
   }
 
@@ -729,6 +738,10 @@ section.about-pass-event {
     color: #595959;
     font-weight: 900;
     font-size: 3em;
+  }
+
+  .hero-contact p {
+    font-size: 18px;
   }
 
   header.hero-container {
@@ -819,6 +832,11 @@ section.about-pass-event {
     width: 3%;
   }
 
+  .partners-brand img {
+    padding: 10px;
+    height: 73px;
+  }
+
   button.more {
     display: none;
   }
@@ -848,11 +866,6 @@ section.about-pass-event {
   .partners-brand {
     width: 1200px;
     margin: 0 auto;
-  }
-
-  .partners-brand img {
-    padding: 10px;
-    height: 73px;
   }
 
   .partners-heading::after {
@@ -952,7 +965,7 @@ section.about-pass-event {
   }
 
   .img-1 {
-    margin-right: 0;
+    margin-right: 20px;
   }
 
   h2.lecture {
