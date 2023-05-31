@@ -5,3 +5,5 @@ humburger.addEventListener('click', () => {
   humburger.classList.toggle('active');
   mainMenu.classList.toggle('active');
 });
+
+fetch.
