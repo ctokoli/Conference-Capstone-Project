@@ -1,6 +1,7 @@
 const humburger = document.querySelector('.humburger');
 const mainMenu = document.querySelector('.main-menu');
 const speakerContent = document.querySelector('.featured-speakers');
+let showButton = document.querySelector('.more');
 
 humburger.addEventListener('click', () => {
   humburger.classList.toggle('active');
@@ -11,7 +12,7 @@ fetch('speakers.json').then((response) => response.json()).then((speakers) => {
     let placeholder = "";
     speakers.forEach((speaker) => {
         placeholder += `
-        <div class="speaker">
+        <div class="speaker ${speaker.show}">
         <img src="${speaker.speaker_image}"/>
         <div class="speaker-text">
             <h3>${speaker.name}</h3>
@@ -21,8 +22,17 @@ fetch('speakers.json').then((response) => response.json()).then((speakers) => {
     </div>
         `;
     });
-
-
     speakerContent.innerHTML = placeholder;
- 
+    
+    let showSpeaker = document.querySelector('.speaker');
 })
+
+
+function showSpeakers() {
+    document.querySelectorAll('.speaker').forEach((element) => {
+       element.classList.add('show');
+    })
+    showButton.classList.add('showbtn');
+}
+
+

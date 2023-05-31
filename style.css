@@ -301,7 +301,7 @@ section.featured-speakers-section {
 .featured-head::after {
     content: '';
     height: 2px;
-    width: 2%;
+    width: 10%;
     margin: 0 auto;
     background-color: #c91b00d1;
     position: absolute;
@@ -339,6 +339,18 @@ div.red-tex p {
     margin-bottom: 10px;
 }
 
+.c,.d,.e,.f{
+    display: none;
+}
+
+.c.show,.d.show,.e.show,.f.show{
+    display: flex;
+}
+
+.showbtn{
+    display: none !important;
+}
+
 div.red-tex::after {
     content: '';
     height: 2px;
@@ -347,7 +359,7 @@ div.red-tex::after {
     background-color: #c4c4c4d1;
     position: absolute;
     left: 0;
-    right: 112px;
+    right: 40px;
 }
 
 .featured-speakers {
@@ -787,6 +799,10 @@ section.about-pass-event{
         margin: 0 auto;
     }
 
+    .featured-head::after {
+        width: 3%;
+    }
+
     button.more{
         display: none;
     }
@@ -795,6 +811,8 @@ section.about-pass-event{
         position: relative;
         padding-right: 35px;
     }
+
+    
 
     div.red-tex::after {
         content: '';
@@ -952,6 +970,10 @@ section.about-pass-event{
     
     h2.workshop {
         margin-right: 0;
+    }
+
+    .c,.d,.e,.f{
+        display: flex;
     }
     
 
