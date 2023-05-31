@@ -4,26 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Conference</title>
 </head>
 <body>
+   <section class="block">
     <section class="menu">
-        <div class="social-icons"></div>
-        <nav>
+        <div class="social-icons">
+            <ul class="social-icons-items">
+                <li><img src="images/facebook.png" alt="facebook-icon"/></li>
+                <li><img src="images/twitter.png" alt="twitter-icon"/></li>
+                <li><a href="#">English</a></li>
+                <li><a href="#">My Page</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        <nav class="nav-items">
             <div class="humburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <div class="logo"></div>
-            <div class="menu-item"></div>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+            </div>
+            <div class="main-menu">
+                <ul class="manu-item">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#"> Program</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#"> News</a></li>
+                    <li class="cc-top"><a href="#" class="cc">CC Campaign</a></li>
+                </ul>
+            </div>
         </nav>
     </section>
-    <section class="headline"></section>
-    <section class="main-program"></section>
-    <section class="featured-speakers"></section>
-    <section class="partners"></section>
-    <section class="footer"></section>
+    <section class="headline">
+        <header class="hero-container">
+            <h4>"Hello! Sharing World"</h4>
+            <h1>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+        </header>
+        <div class="hero-content">
+            <p>
+                A joyful celebration believing in the value of openness and sharing, creating a 
+                positive change with people from over 80 countries is taking place in October, 
+                in Korea.
+            </p>
+        </div>
+        <div class="hero-date">
+            <h1>2015.10.15(THU) ~ 16(FRI)</h1>
+            <h4>@ National Museum of Karea, Art Center Nabi and more</h4>
+        </div>
+    </section>
+   </section>
+    <section class="main-program">
+        <div class="program-heading"><h2>Main Program</h2></div>
+        <div class="program-contents">
+            <div class="program-cont">
+                <span><img src="images/program_icon_01 1.svg" alt="" /></span>
+                <h2 class="lecture">Lecture</h2>
+                <div>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </div>
+            </div>
+            <div class="program-cont">
+                <span><img src="images/program_icon_02 1.svg" alt="" /></span>
+                <h2 class="exhibit">CC Exhibition</h2>
+                <div>
+                    <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
+                </div>
+            </div>
+            <div class="program-cont">
+                <span><img src="images/program_icon_03 1.svg" alt="" /></span>
+                <h2 class="forum">Forum</h2>
+                <div>
+                    <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                </div>
+            </div>
+            <div class="program-cont">
+                <span><img src="images/program_icon_04 1.svg" alt="" /></span>
+                <h2 class="workshop">Workshop</h2>
+                <div>
+                    <p>Try creating your own work using open source license rather than just watching at it.</p>
+                </div>
+            </div>
+            <div class="program-cont">
+                <span><img src="images/program_icon_05 1.svg" alt="" /></span>
+                <h2 class="ignite">CC Ignite</h2>
+                <div>
+                    <p>get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="program-button">
+            <button>Join CC Global Summit 2015</button>
+        </div>
+        <div class="program-button-desktop">
+            <a href="#">SEE THE WHOLE PROGRAM</a>
+        </div>
+    </section>
+    <section class="featured-speakers-section">
+        <div class="featured-head">
+            <h2>Featured Speakers</h2>
+        </div>
+        <div class="featured-speakers">
+            
+        </div>
+        <button class="more" onclick="showSpeakers()">
+            <spa>MORE</spa>
+            <img src="images/arrow_down 1.png" alt="arrow" />
+        </button>
+    </section>
+    <section class="partners-section">
+        <div class="partners-heading">
+            <h2>Partner</h2>
+        </div>
+        <div class="partners-brand">
+            <img src="images/mozilla 1.svg" alt="partners-logo" />
+            <img src="images/googlekorea 1.svg" alt="partners-logo" />
+            <img src="images/naver 1.svg" alt="partners-logo" />
+            <img src="images/daumkakaologo 1.svg" alt="partners-logo" />
+            <img src="images/airbnb 1.svg" alt="partners-logo" />
+        </div>
+    </section>
+    <section class="footer">
+        <img src="images/cck-logo1 1.svg" alt="creative common logo" />
+        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
