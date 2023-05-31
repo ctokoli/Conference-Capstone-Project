@@ -123,9 +123,7 @@ You can deploy this project using: GitHub Pages,
 - For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Here is the link to the live experience](https://ctokoli.github.io/personal-portfolio-site/).
+## 🚀 Demo <a name="live-demo"></a>
 
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
