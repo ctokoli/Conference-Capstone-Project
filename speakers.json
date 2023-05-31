@@ -1,49 +1,49 @@
 [
     {
         "id": 1,
-        "name": "Yochai Benkler",
-        "position": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
-        "about_speaker": "Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006",
+        "name": "Dr. Sangu J. Delle, Esq.",
+        "position": "CEO, CarePoint (formerly Africa Health Holdings)",
+        "about_speaker": "Sangu is CEO of CarePoint (formerly Africa Health Holdings), a tech forward healthcare system operating across the continent, focused on building Africa's healthcare future.",
         "speaker_image": "images/speaker_01_1.png",
         "show": "a"
     },
     {
         "id": 2,
-        "name": "SohYeong Noh",
-        "position": "Director of Art Centre Nabi and a board member of CC Korea",
-        "about_speaker": "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.",
+        "name": "Dr. Dumi Magadlela",
+        "position": "Chair, ICF Global Board of Directors",
+        "about_speaker": "Dr. Dumi is a Team Coach, Executive Coach, Coach Trainer, Capacity Building and Leadership Skills Development Practitioner.",
         "speaker_image": "images/speaker_01_2.png",
         "show": "b"
     },
     {
         "id": 3,
-        "name": "Kilnam Chon",
-        "position": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
-        "about_speaker": "Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame",
+        "name": "Abena Amoah",
+        "position": "MD, Ghana Stock Exchange",
+        "about_speaker": "Abena Amoah is one of Ghana's leading female investment bankers and financial advisors. On July 15, 2020, she was appointed as the Deputy Managing Director of the Ghana Stock Exchange",
         "speaker_image": "images/speaker_01_3.png",
         "show": "c"
     },
     {
         "id": 4,
-        "name": "Julia Leda",
-        "position": "President of Young Pirates of Europe",
-        "about_speaker": "European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July",
+        "name": "Ruth Zaipuna",
+        "position": "CEO, NMB Bank, Tanzania",
+        "about_speaker": "Ms. Ruth Zaipuna (an Associate Certified Public Accountant), currently serves as the Chief Executive Officer of NMB Bank Plc, Tanzania. Ms. Ruth is a passionate advocate and champion of gender equality, economic empowerment, and inclusive growth.",
         "speaker_image": "images/speaker_01_4.png",
         "show": "d"
     },
     {
         "id": 5,
-        "name": "Ryan Merkley",
-        "position": "CEO of Creativve Commons, ex COO of the Mozilla Foundation",
-        "about_speaker": "Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment",
+        "name": "Patrick Gyimah Awuah Jr",
+        "position": "Founder & President, Ashesi University",
+        "about_speaker": "Patrick Awuah Jr. is a Ghanaian engineer, educator, and entrepreneur. Awuah established Ashesi University in 2002. Awuah has won many awards as an individual and as the founder of Ashesi University.",
         "speaker_image": "images/speaker_01_5.png",
         "show": "e"
     },
     {
         "id": 6,
-        "name": "Lila tretikov",
-        "position": "Executive Director of the Wikimedia Foundation",
-        "about_speaker": "Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.",
+        "name": "Sanaa Benchekroun",
+        "position": " Head of HR and Communication, Majorel - France-Africa-Benelux region",
+        "about_speaker": "Sanaa is the Head of HR and Communication, Majorel - France-Africa-Benelux region",
         "speaker_image": "images/speaker_01_6.png",
         "show": "f"
     }

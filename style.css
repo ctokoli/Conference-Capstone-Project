@@ -180,7 +180,7 @@ ul.manu-item li a {
 
 .hero-container h1 {
   font-weight: 900;
-  font-size: 33px;
+  font-size: 30px;
   color: #fa3516;
   padding-right: 20px;
   line-height: 1.2;
@@ -257,7 +257,7 @@ ul.manu-item li a {
 }
 
 .partners-brand img {
-  padding-left: 10px;
+  padding-left: 16px;
   padding-bottom: 14px;
 }
 
@@ -281,7 +281,7 @@ h2.forum {
 }
 
 h2.ignite {
-  padding-right: 30px;
+  padding-right: 13px;
 }
 
 h2.workshop {
@@ -312,6 +312,10 @@ h2.workshop {
 .program-cont div p {
   font-size: 13px;
   color: #fff;
+}
+
+.cocktail p {
+    margin-left: 30px;
 }
 
 .program-button {
@@ -458,22 +462,25 @@ section.partners-section {
   flex-wrap: wrap;
 }
 
-section.footer {
+
+footer.footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
 
-section.footer img {
-  padding-right: 20px;
+footer.footer img {
+  width: 150px;
 }
 
-section.footer p {
+footer.footer p {
   font-size: 13px;
   line-height: 1;
   padding-left: 10px;
 }
+
+
 
 .about-hero-container {
   padding: 0 20px;
@@ -751,7 +758,7 @@ section.about-pass-event {
 
   header.hero-container h1 {
     font-size: 5em;
-    padding-right: 354px;
+    padding-right: 255px;
     line-height: 1.1;
   }
 
@@ -890,7 +897,7 @@ section.about-pass-event {
 
   header.about-hero-container h1 {
     font-size: 3em;
-    padding: 0 310px;
+    padding: 0 262px;
   }
 
   header.about-hero-container::after {
@@ -988,4 +995,25 @@ section.about-pass-event {
   .f {
     display: flex;
   }
+
+  .display {
+    display: none;
+  }
+
+  footer.footer {
+    padding: 85px;
+    background-color: #2E2E2E;
+    color: #fff;
+}
+
+footer.footer p {
+    font-size: 18px;
+    padding-right: 486px;
+    line-height: 1.4;
+}
+
+footer.footer img {
+    width: 263px;
+}
+
 }
