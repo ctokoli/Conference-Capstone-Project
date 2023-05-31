@@ -296,12 +296,12 @@ section.featured-speakers-section {
 .featured-head {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 55px;
 }
 .featured-head::after {
     content: '';
     height: 2px;
-    width: 10%;
+    width: 2%;
     margin: 0 auto;
     background-color: #c91b00d1;
     position: absolute;
@@ -352,6 +352,10 @@ div.red-tex::after {
 
 .featured-speakers {
     margin: 20px 10px;
+}
+
+.speaker img {
+    height: 143px;
 }
 
 button.more {
@@ -796,7 +800,7 @@ section.about-pass-event{
         content: '';
         height: 2px;
         width: 5%;
-        right: 172px;
+        right: 188px;
     }
 
     div.red-tex p {
