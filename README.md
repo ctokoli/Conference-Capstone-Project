@@ -4,7 +4,7 @@
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 Hello-Microverse ](#-Hello-Microverse-)
+- [📖 Conference Project ](#-Conference-Project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,15 +23,15 @@
   - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 A Pan-African Leadership Enhancement Conference Project<a name="about-project"></a>
 
-**Creative Commons Summit** The Creative Commons Global Summit is an annual event that brings together the Creative Commons community, including creators, activists, policymakers, and advocates, to discuss and collaborate on issues related to open licensing, sharing, and the commons.
+**A Pan-African Leadership Enhancement Conference** The conference gathers like-minded leaders, innovators, and entrepreneurs to spark new ideas, forge new partnerships and catalyse social, financial and a mind shift change for leaders in Africa. This year, we are gathering 300+ leaders in Accra, Ghana and several others online for the 5th edition of MLC.
 
 
 
 <div align="center">
 
-  <h3><b>Creative Commons Caption Project</b></h3>
+  <h3><b>A Pan-African Leadership Enhancement Conference Project</b></h3>
 
 </div>
 
@@ -124,6 +124,7 @@ You can deploy this project using: GitHub Pages,
 
 
 ## 🚀 Demo <a name="live-demo"></a>
+https://ctokoli.github.io/Conference-Capstone-Project/
 
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
@@ -168,6 +169,7 @@ Give a ⭐️ if you like this project and how I managed to build it!
 
 
 - Project from [Microverse](https://www.microverse.org/) html & css module.
+- Many thanks to <a href="https://www.behance.net/adagio07">Cindy Shin</a> for the UI design 
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
