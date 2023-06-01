@@ -309,13 +309,13 @@ h2.workshop {
   font-weight: 500;
 }
 
+.cocktail p {
+  margin-left: 30px;
+}
+
 .program-cont div p {
   font-size: 13px;
   color: #fff;
-}
-
-.cocktail p {
-    margin-left: 30px;
 }
 
 .program-button {
@@ -462,7 +462,6 @@ section.partners-section {
   flex-wrap: wrap;
 }
 
-
 footer.footer {
   display: flex;
   justify-content: space-around;
@@ -479,8 +478,6 @@ footer.footer p {
   line-height: 1;
   padding-left: 10px;
 }
-
-
 
 .about-hero-container {
   padding: 0 20px;
@@ -1002,23 +999,22 @@ section.about-pass-event {
 
   footer.footer {
     padding: 85px;
-    background-color: #2E2E2E;
+    background-color: #2e2e2e;
     color: #fff;
-}
+  }
 
-footer.footer p {
+  footer.footer p {
     font-size: 18px;
     padding-right: 486px;
     line-height: 1.4;
-}
+  }
 
-footer.footer img {
+  footer.footer img {
     width: 263px;
-}
+  }
 
-footer.footer.white {
+  footer.footer.white {
     background-color: #fff;
     color: #000;
-}
-
+  }
 }
