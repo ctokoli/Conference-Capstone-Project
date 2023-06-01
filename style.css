@@ -1016,4 +1016,9 @@ footer.footer img {
     width: 263px;
 }
 
+footer.footer.white {
+    background-color: #fff;
+    color: #000;
+}
+
 }
